@@ -41,4 +41,4 @@ def find_valid_calls(planeteer_calls)
 end
 small_calls = ["earth", "wind", "fire", "water", "heart"]
 
-find_valid_calls(smal)
+find_valid_calls(small_calls)
