@@ -37,3 +37,4 @@ def find_valid_calls(planeteer_calls)
   element == valid_calls.map
 end
 end
+find_valid_calls(small_calls)
