@@ -37,6 +37,6 @@ def find_valid_calls(planeteer_calls)
 valid_calls.find { |element| element == planeteer_calls.map }
 
 end
-small_calls = ["earth", "wind", "fire", "water", "heart"]
+small_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
 find_valid_calls(small_calls)
