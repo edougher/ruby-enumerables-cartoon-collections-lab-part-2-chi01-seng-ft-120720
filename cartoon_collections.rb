@@ -27,6 +27,7 @@ planeteer_calls.any? do |element|
 end
 
 end
+long_planeteer_calls(small_calls)
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
