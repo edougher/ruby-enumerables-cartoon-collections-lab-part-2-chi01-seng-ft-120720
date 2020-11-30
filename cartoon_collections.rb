@@ -25,7 +25,7 @@ planeteer_calls.any? do |element|
     p element
   end
 end
-  
+
 end
 
 def find_valid_calls(planeteer_calls)
