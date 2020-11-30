@@ -39,4 +39,4 @@ def find_valid_calls(planeteer_calls)
     p nil
 end
 end
-find_valid_calls()
+find_valid_calls(small_calls)
