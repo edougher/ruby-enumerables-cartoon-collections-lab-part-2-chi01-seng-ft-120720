@@ -10,7 +10,9 @@ end
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
- p planeteer_calls.capitalize
+   planeteer_calls.collect do |element|
+     element.capitalize
+   end
 
 end
 small_calls = ["earth", "wind", "fire", "water", "heart"]
